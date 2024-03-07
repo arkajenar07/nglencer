@@ -1,0 +1,452 @@
+@font-face {
+    font-family: 'ABC Normal';
+    src: url(../fonts/ABCNormal.ttf);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+nav{
+    padding-left: 293px;
+    padding-top: 108px;
+}
+
+a{
+    color: #000;
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+a p{
+    margin-left: 16px;
+}
+
+nav h1{
+    margin-left: 497px;
+    color: #000;
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.title-wrap{
+    margin-top: 44px;
+    margin-left: 293px;
+    padding-top: 91px;
+    width: 1334px;
+    height: 292.209px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/interest.png);
+    background-size: cover;
+}
+
+.title-wrap h1{
+    color: rgba(245, 245, 245, 0.80);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title-wrap h1 span{
+    color: #E9BC13;
+}
+
+.title-wrap h2{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'ABC Normal';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.title-group{
+    margin-top: 44px;
+    margin-left: 293px;
+}
+
+.title-group h2{
+    color: rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'ABC Normal';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title-group h1{
+    margin-top: 16px;
+    margin-left: 24px;
+    color: rgba(0, 0, 0, 0.60);
+font-family: 'Poppins';
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.maps-recom{
+    margin-left: 293px;
+}
+
+.result{
+    margin-top: 156px;
+}
+
+.result-card{
+    width: 689px;
+    margin-bottom: 41px;
+}
+
+.maps{
+    width: 644px;
+    height: 659px;
+flex-shrink: 0;
+border-radius: 50px;
+}
+
+.result-card .img{
+    border-radius: 20px;
+    width: 136px;
+    height: 143px;
+    flex-shrink: 0;
+}
+
+.result-card-content{
+    margin-left: 53px;
+
+}
+
+.result-card-content h1{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 222.222% */
+    letter-spacing: 0.135px;
+}
+
+.result-card-content h2{
+    color: rgba(0, 0, 0, 0.70);
+font-family: 'Poppins';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.1px;
+}
+
+.location{
+    margin-top: 18px;
+}
+
+.result-card-content h3{
+    margin-left: 13px;
+    color: rgba(0, 0, 0, 0.50);
+font-family: 'Poppins';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.1px;
+}
+
+.footer{
+    margin-top: 127px;
+  }
+
+.footer h1{
+    color: rgba(0, 0, 0, 0.60);
+text-align: center;
+font-family: 'Poppins';
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footer h1 span{
+    color: #EBB612;
+}
+
+.footer ul{
+    margin-top: 58px;
+}
+
+.footer ul li:first-child{
+    margin-left: 0;
+}
+.footer ul li{
+    margin-left: 58px;
+}
+
+.footer ul li a{
+    color: rgba(0, 0, 0, 0.70);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer h2
+{
+    margin-top: 26px;
+    margin-bottom: 35px;
+    color: rgba(11, 31, 50, 0.60);
+text-align: center;
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.5px;
+}
+
+.footer hr{
+    margin-top: 67px;
+    width: 1400px;
+height: 2px;
+background: rgba(0, 0, 0, 0.20);
+}
+
+@media screen and (max-width: 430px) {
+    @font-face {
+        font-family: 'ABC Normal';
+        src: url(../fonts/ABCNormal.ttf);
+    }
+
+    body::-webkit-scrollbar{
+        display: none;
+    }
+
+    nav{
+        padding-left: 25px;
+        padding-top: 38px;
+    }
+
+    a{
+        color: #000;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    a p{
+        font-weight: 500;
+        margin-left: 18px;
+    }
+
+    nav h1{
+        margin-left: 86px;
+        color: #000;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .title-wrap{
+        margin-top: 30px;
+        margin-left: 13px;
+        padding-top: 37px;
+        width: 404px;
+        height: 122px;
+
+        flex-shrink: 0;
+        border-radius: 15px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/interest.png);
+        background-size: cover;
+    }
+
+    .title-wrap h1{
+        font-size: 12px;
+    }
+
+    .title-wrap h1 span{
+        color: #E9BC13;
+    }
+
+    .title-wrap h2{
+        margin-top: 6px;
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-size: 16px;
+    }
+    .title-group{
+        margin-top: 18px;
+        margin-left: 24px;
+    }
+
+    .title-group h2{
+        color: rgba(0, 0, 0, 0.08);
+        text-align: center;
+        font-family: 'ABC Normal';
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .title-group h1{
+        margin-top: 7px;
+        margin-left: 14px;
+        color: rgba(0, 0, 0, 0.60);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+    .maps-recom{
+
+        flex-direction: column-reverse;
+        margin-top: 76px;
+        margin-left: 24px;
+    }
+
+    .result{
+        margin-top: 46px;
+    }
+
+    .result-card{
+        width: 400px;
+        margin-bottom: 41px;
+        transition: 0.2s;
+    }
+
+    .result-card:hover{
+        width: 410px;
+    }
+
+    .maps{
+        width: 382px;
+height: 384.76px;
+flex-shrink: 0;
+border-radius: 25px;
+    }
+
+    .result-card .img{
+        width: 78.126px;
+        height: 82px;
+        border-radius: 5px;
+        flex-shrink: 0;
+    }
+
+    .result-card-content{
+        margin-left: 26px;
+
+    }
+
+    .result-card-content h1{
+        margin-top: 11px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0px; /* 375% */
+        letter-spacing: 0.08px;
+    }
+
+    .result-card-content h2{
+        margin-top: 16px;
+        color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.075px;
+    }
+
+    .location{
+        margin-top: 8px;
+    }
+
+    .location img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .result-card-content h3{
+        margin-left: 8px;
+        color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    }
+
+    .footer{
+        margin-top: 79px;
+      }
+
+      .menu-foot{
+        flex-direction: column;
+      }
+
+    .footer h1{
+        font-size: 24px;
+    }
+
+    .footer h1 span{
+        color: #EBB612;
+    }
+
+    .footer ul{
+        margin-top: 0px;
+    }
+
+    .footer ul li:first-child{
+        margin-top: 42px;
+        margin-left: 0;
+    }
+    .footer ul li{
+        text-align: center;
+        margin-top: 13px;
+        margin-left: 0px;
+    }
+
+    .footer ul li a{
+        color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-size: 19px;
+    }
+
+    .footer h2
+    {
+        margin-top: 25px;
+        color: rgba(11, 31, 50, 0.60);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 162.5% */
+    letter-spacing: 0.5px;
+    }
+
+    .footer hr{
+        margin-top: 45px;
+        width: 227px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.20);
+    }
+
+
+}

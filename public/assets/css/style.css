@@ -1,0 +1,1004 @@
+@font-face {
+    font-family: 'ABC Normal';
+    src: url(../fonts/ABCNormal.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.mainhead{
+    width: 100%;
+    height: 828px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url(../img/backgroundmain.png)
+}
+
+.desk{
+    display: flex;
+}
+
+.mob{
+    display: none;
+}
+
+nav{
+    box-sizing: border-box;
+    padding: 41px 60px 0 60px;
+}
+
+nav h2{
+    color: rgba(245, 245, 245, 0.80);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+nav h2 span{
+    color: #EBB612;
+}
+
+nav ul{
+    margin-top: 8px;
+}
+
+nav ul li:first-child{
+    margin-left: 0;
+}
+
+nav ul li{
+    margin-left: 37px;
+}
+
+.links{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+nav button{
+    position: relative;
+    overflow: hidden;
+    width: 183px;
+    height: 69px;
+
+    border-radius: 50px;
+    background: linear-gradient(270deg, #FA7C0A 11.81%, #E8BE13 99.82%);
+
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainhead h1{
+    margin-top: 165px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'ABC Normal';
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.view{
+    position: relative;
+    overflow: hidden;
+    margin-top: 64px;
+    width: 309px;
+    height: 105px;
+    border-radius: 60px;
+    background: linear-gradient(180deg, #31885E 0%, #1C5A3C 100%);
+    box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'ABC Normal';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.searchcontainer{
+    margin-top: -155px;
+    margin-left: 240px;
+}
+
+.searchcontainer h1{
+    margin-bottom: 46px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'ABC Normal';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.searchcontainer button{
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-27px);
+    margin-left: 606px;
+    width: 234px;
+    height: 55px;
+    border-radius: 60px;
+background: linear-gradient(180deg, #31885E 0%, #1C5A3C 100%);
+box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(17.5px);
+color: rgba(255, 255, 255, 0.80);
+font-family: 'ABC Normal';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.search-box{
+    width: 1431px;
+    height: 249px;
+    border-radius: 20px;
+background: rgba(252, 252, 252, 0.75);
+box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(17.5px);
+}
+
+.search-category{
+    margin-left: 130px;
+}
+
+.search-destination{
+    margin-left: 66px;
+}
+
+.search-location h3,
+.search-category h3,
+.search-destination h3
+{
+    color: rgba(0, 0, 0, 0.55);
+font-family: 'ABC Normal';
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.input-location{
+    margin-top: 27px;
+    width: 335px;
+    height: 56px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.20);
+}
+
+.input-location input{
+    padding: 0;
+    width: 289px;
+    border: none;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-location img{
+    margin-left: 11px;
+    width: 32px;
+    height: 32px;
+}
+
+.input-category input{
+    border: none;
+    padding: 0;
+    margin-top: 27px;
+    width: 335px;
+    height: 56px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.20);
+    color: rgba(0, 0, 0, 0.30);
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-category input:focus, .input-location input:focus, .input-destination input:focus{
+    outline: 1px solid gray;
+    outline-color: transparent;
+    outline-offset: 0px;
+}
+
+.input-destination input{
+    padding-left: 47px;
+    margin-top: 21px;
+    color: rgba(0, 0, 0, 0.30);
+font-family: 'Poppins';
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    width: 366px;
+    height: 62px;
+    border: none;
+    border-radius: 50px;
+    background: #EFEFEF;
+}
+
+.content-container{
+    margin-top: 106px;
+    margin-left: 100px;
+}
+
+.head h3{
+    font-family: 'ABC Normal';
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(90deg, #E9BC13 -6.16%, #FA7C0A 77.34%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.head p{
+    margin-top: 164px;
+    width: 960px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head-ttl h1{
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.08);
+    font-family: 'ABC Normal';
+    font-size: 112px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.head-ttl h2{
+    margin-top: 45px;
+    margin-left: 53px;
+    color: rgba(0, 0, 0, 0.60);
+font-family: 'Poppins';
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.card-contain{
+    width: 1721px;
+    grid-template-columns: auto auto auto;
+    row-gap: 54px;
+}
+
+.badge-destination{
+    padding-top: 29px;
+    padding-left: 28px;
+    margin-left: 407px;
+    margin-top: -65px;
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #30855C -80%, #1F5F40 137.5%);
+position: relative;
+z-index: 2;
+}
+
+.card{
+    margin-top: 53px;
+    position: relative;
+}
+
+.card-image{
+    width: 552px; height: 398px; border-radius: 20px;
+}
+.card h1{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 162.162% */
+    letter-spacing: 0.185px;
+}
+
+.loc-des{
+    margin-top: 24px
+}
+
+.loc-des img{
+    width: 32px;
+    height: 32px;
+}
+
+.card h3{
+    margin-left: 12px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.12px;
+}
+
+
+
+.card h2{
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.70);
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.12px;
+}
+
+.card h4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 441px;
+    margin-top: 114px;
+    font-family: 'ABC Normal';
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(90deg, #E9BC13 -6.16%, #FA7C0A 77.34%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.card p{
+    margin-top: 24px;
+    width: 535px;
+    color: rgba(0, 0, 0, 0.70);
+font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card button{
+    position: relative;
+  overflow: hidden;
+    margin-top: 32px;
+    width: 155px;
+height: 62px;
+flex-shrink: 0;
+border-radius: 60px;
+background: linear-gradient(180deg, #31885E 0%, #1C5A3C 100%);
+backdrop-filter: blur(17.5px);
+color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: 'ABC Normal';
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.promo{
+    margin-top: 88px;
+    border-radius: 50px;
+    margin-left: 98px;
+    width: 1726px;
+    height: 878px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/promo.png);
+    background-size: cover;
+}
+
+.promo h2{
+    margin-top: 211px;
+    margin-bottom: 7px;
+    color: rgba(245, 245, 245, 0.80);
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.promo h1{
+    font-family: 'ABC Normal';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(90deg, #E9BC13 -6.16%, #FA7C0A 77.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.promo p{
+    margin-top: 55px;
+    width: 1246px;
+    color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: 'Poppins';
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.175px;
+}
+
+.promo button{
+    display: block;
+  position: relative;
+  overflow: hidden;
+    margin-top: 68px;
+    width: 183px;
+height: 69px;
+flex-shrink: 0;
+border-radius: 50px;
+background: linear-gradient(270deg, #FA7C0A 11.81%, #E8BE13 99.82%);
+color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: 'Poppins';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.promo button:after, .card button:after, .searchcontainer button:after, .view::after, nav button::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+    transform: rotateZ(60deg) translate(-5em, 7.5em);
+  }
+  /*This activates the sheen once the button has been hovered*/
+  .promo button:hover::after, .card button:hover::after, .searchcontainer button:hover::after, .view:hover::after, nav button:hover::after{
+    animation: sheen 1s forwards;
+  }
+  @keyframes sheen {
+    100% {
+      transform: rotateZ(60deg) translate(1em, -9em);
+    }
+  }
+
+  .footer{
+    margin-top: 53px;
+  }
+
+.footer h1{
+    color: rgba(0, 0, 0, 0.60);
+text-align: center;
+font-family: 'Poppins';
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footer h1 span{
+    color: #EBB612;
+}
+
+.footer ul{
+    margin-top: 58px;
+}
+
+.footer ul li:first-child{
+    margin-left: 0;
+}
+.footer ul li{
+    margin-left: 58px;
+}
+
+.footer ul li a{
+    color: rgba(0, 0, 0, 0.70);
+text-align: center;
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer h2
+{
+    margin-top: 26px;
+    margin-bottom: 35px;
+    color: rgba(11, 31, 50, 0.60);
+text-align: center;
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.5px;
+}
+
+.footer hr{
+    margin-top: 67px;
+    width: 1400px;
+height: 2px;
+background: rgba(0, 0, 0, 0.20);
+}
+
+@media only screen and (max-width: 431px) {
+
+    .mainhead{
+
+        width: 411px;
+        height: 606px;
+        border-radius: 20px;
+        margin-top: 11px;
+        margin-left: 9px;
+    }
+
+
+
+    nav{
+        box-sizing: border-box;
+        padding: 17px 60px 0 15px;
+    }
+
+    nav h2{
+        color: rgba(245, 245, 245, 0.80);
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    nav ul{
+        display: none;
+        padding-top: 32px;
+        align-items: center;
+        flex-direction: column;
+        width: 160px;
+        border-radius: 10px;
+background: rgba(252, 252, 252, 0.75);
+box-shadow: 1px 1px 25px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(17.5px);
+        height: 205px;
+        flex-shrink: 0;
+        margin-top: 8px;
+    }
+
+    nav ul.active{
+        display: flex;
+    }
+
+    nav ul li:first-child{
+        margin-left: 0;
+    }
+
+    nav ul li{
+        margin-left: 0px;
+    }
+
+    .links{
+        color: rgba(0, 0, 0, 0.80);
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    nav button{
+        width: 113px;
+        height: 43px;
+        font-size: 12px;
+    }
+
+    nav .menu{
+        margin-left: 132px;
+        position: relative;
+        overflow: hidden;
+        width: 32px;
+        height: 32px;
+
+        border-radius: 50px;
+        background: transparent;
+
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .desk{
+        display: none;
+    }
+
+    .mob{
+        z-index: 33;
+        margin-left: 224px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainhead h1{
+        margin-top: 50px;
+        font-size: 32px;
+        width: 257px;
+    }
+
+    .view{
+        margin-top: 33px;
+        width: 92px;
+        height: 34px;
+        font-size: 10px;
+    }
+
+    .searchcontainer{
+        margin-top: -259px;
+        margin-left: 64px;
+    }
+
+    .searchcontainer h1{
+        margin-bottom: 11px;
+        font-size: 16px;
+    }
+
+    .searchcontainer button{
+        position: relative;
+        overflow: hidden;
+        font-size: 10px;
+
+        transform: translateY(-50px);
+        margin-left: 102px;
+        width: 74px;
+        height: 24px;
+    }
+    .search-box{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 279px;
+        height: 289px;
+        border-radius: 10px;
+
+    }
+
+    .search-location{
+        margin-top: 37px;
+    }
+
+    .search-category{
+        margin-top: 22px;
+        margin-left: 0px;
+    }
+
+    .search-destination{
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+
+    .search-location h3,
+    .search-category h3,
+    .search-destination h3
+    {
+    font-size: 12px;
+    text-align: center;
+    }
+
+    .input-location{
+        margin-top: 8px;
+        width: 202px;
+        height: 22px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    }
+
+    .input-location input{
+        padding: 0;
+        width: 180px;
+        height: 20px;
+        border: none;
+        background: transparent;
+        font-size: 12px;
+    }
+
+    .input-location img{
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .input-category input{
+        border: none;
+        background: transparent;
+        padding: 0;
+        margin-top: 6px;
+        font-size: 12px;
+        width: 202px;
+        height: 22px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    }
+
+    .input-category input:focus, .input-location input:focus, .input-destination input:focus{
+        outline: 1px solid gray;
+        outline-color: transparent;
+        outline-offset: 0px;
+    }
+
+    .input-destination input{
+        padding-left: 14px;
+        margin-top: 15px;
+    font-size: 9px;
+    width: 202px;
+    height: 31px;
+    }
+
+    .content-container{
+        margin-top: 22px;
+        margin-left: 30px;
+    }
+
+    .head h3{
+        font-size: 13px;
+    }
+
+    .head p{
+        margin-top: 81px;
+        width: 308px;
+        font-size: 12px;
+    }
+
+    .head-ttl h1{
+        font-size: 50px;
+    }
+
+    .head-ttl h2{
+        width: 200px;
+        margin-top: 9px;
+        margin-left: 5px;
+        font-size: 23px;
+        line-height: 99.75%;
+    }
+
+    .card-contain{
+        width: 373px; grid-template-columns: auto; row-gap: 41px;
+    }
+
+    .badge-destination{
+        padding-top: 16px;
+        padding-left: 17px;
+        margin-left: 271px;
+        margin-top: -45px;
+        width: 60px;
+        height: 60px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #30855C -80%, #1F5F40 137.5%);
+    position: relative;
+    z-index: 2;
+    }
+
+    .badge-destination img{
+        width: 26px;
+        height: 24px;
+    }
+
+    .card{
+        margin-top: 34px;
+        position: relative;
+    }
+
+    .card-image{
+        width: 373px;
+        height: 234px;
+    }
+    .card h1{
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 0px;
+        letter-spacing: 0.1px;
+    }
+
+    .loc-des{
+        margin-top: 24px
+    }
+
+    .loc-des img{
+        width: 24px;
+height: 24px;
+    }
+
+    .card h3{
+        margin-left: 7px;
+        font-size: 15px;
+        letter-spacing: 0.075px;
+    }
+
+
+
+    .card h2{
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.12px;
+    }
+
+    .card h4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 313px;
+        margin-top: 0px;
+        font-size: 19px;
+    }
+
+    .card p{
+        margin-top: 16px;
+        width: 309px;
+        font-size: 12px;
+    }
+
+    .card button{
+        position: relative;
+      overflow: hidden;
+        margin-top: 23px;
+        width: 92px;
+    height: 34px;
+    font-size: 10px;
+    }
+
+    .promo{
+        margin-top: 70px;
+        border-radius: 20px;
+        margin-left: 9px;
+        width: 411px;
+        height: 483px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/promo.png);
+        background-size: cover;
+    }
+
+    .promo h2{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        color: rgba(245, 245, 245, 0.80);
+        font-family: 'Poppins';
+        font-size: 16px;
+        width: 145px;
+    }
+
+    .promo h1{
+        margin: 10px;
+        width: 375px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .promo p{
+        margin-top: 30px;
+        width: 324px;
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.06px;
+    }
+
+    .promo button{
+        display: block;
+      position: relative;
+      overflow: hidden;
+        margin-top: 30px;
+        width: 113px;
+    height: 43px;
+    font-size: 12px;
+    }
+
+    .promo button:after, .card button:after, .searchcontainer button:after, .view::after, nav button::after{
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        bottom: -50%;
+        left: -50%;
+        background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+        transform: rotateZ(60deg) translate(-5em, 7.5em);
+      }
+      /*This activates the sheen once the button has been hovered*/
+      .promo button:hover::after, .card button:hover::after, .searchcontainer button:hover::after, .view:hover::after, nav button:hover::after{
+        animation: sheen 1s forwards;
+      }
+      @keyframes sheen {
+        100% {
+          transform: rotateZ(60deg) translate(1em, -9em);
+        }
+      }
+
+      .footer{
+        margin-top: 79px;
+      }
+
+      .menu-foot{
+        flex-direction: column;
+      }
+
+    .footer h1{
+        font-size: 24px;
+    }
+
+    .footer h1 span{
+        color: #EBB612;
+    }
+
+    .footer ul{
+        margin-top: 0px;
+    }
+
+    .footer ul li:first-child{
+        margin-top: 42px;
+        margin-left: 0;
+    }
+    .footer ul li{
+        text-align: center;
+        margin-top: 13px;
+        margin-left: 0px;
+    }
+
+    .footer ul li a{
+        color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-size: 19px;
+    }
+
+    .footer h2
+    {
+        margin-top: 25px;
+        margin-bottom: 35px;
+        color: rgba(11, 31, 50, 0.60);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 162.5% */
+    letter-spacing: 0.5px;
+    }
+
+    .footer hr{
+        margin-top: 45px;
+        width: 227px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.20);
+    }
+}
